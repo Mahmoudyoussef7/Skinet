@@ -12,5 +12,7 @@ namespace Core.Entities
         {
         }
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<ProductType> ProductTypes { get; set; }
+        public virtual DbSet<ProductBrand> ProductBrands { get; set; }
     }
 }
